@@ -308,13 +308,13 @@ body {
 }
 .social-networks:hover,
 .social-networks:focus {
-  color: var(--background-color);
+  color: var(--simple-white);
   background-color: var(--accent-color);
 }
 .icon {
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--btn-bg-clr);
   padding: 25px 102px;
 }
 
