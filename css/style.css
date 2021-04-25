@@ -94,6 +94,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.contacts-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
 .hero-section {
   text-align: center;
   background-color: var(--footer-bg-clr);
