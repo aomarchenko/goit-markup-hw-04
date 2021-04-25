@@ -98,6 +98,10 @@ body {
   fill: currentColor;
   margin-right: 10px;
 }
+.contacts-icon:hover {
+  color: var(--accent-color);
+}
+
 .hero-section {
   text-align: center;
   background-color: var(--footer-bg-clr);
