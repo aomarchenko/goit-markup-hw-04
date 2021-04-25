@@ -99,7 +99,7 @@ body {
   margin-right: 10px;
 }
 .contacts-icon:hover {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .hero-section {
