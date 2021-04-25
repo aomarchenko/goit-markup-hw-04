@@ -317,6 +317,7 @@ body {
   height: 120px;
   background-color: var(--btn-bg-clr);
   padding: 25px 102px;
+  border-radius: 4px;
 }
 
 .examples-list-portfolio {
