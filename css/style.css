@@ -103,10 +103,15 @@ body {
   fill: var(--accent-color);
 }
 .examples-list-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.icon {
   width: 270px;
   height: 120px;
   background-color: var(--btn-bg-clr);
-  align-items: center;
+  padding: 25px 102px;
 }
 
 .hero-section {
