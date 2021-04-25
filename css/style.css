@@ -102,17 +102,6 @@ body {
 .contacts-icon:hover {
   fill: var(--accent-color);
 }
-.examples-list-icon {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-.icon {
-  width: 270px;
-  height: 120px;
-  background-color: var(--btn-bg-clr);
-  padding: 25px 102px;
-}
 
 .hero-section {
   text-align: center;
@@ -276,13 +265,28 @@ body {
   display: block;
 }
 .examples-list {
-  display: flex;
-  padding: 0;
   list-style: none;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  margin-top: -10px;
 }
+.examples-list-item {
+  flex-basis: calc((100% - 4 * 30px) / 4);
+  width: 270px;
+}
+.examples-list-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  padding: 25px 102px;
+}
+
 .examples-list-portfolio {
   display: flex;
   padding: 0;
