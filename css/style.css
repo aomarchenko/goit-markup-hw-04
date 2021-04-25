@@ -98,7 +98,8 @@ body {
   fill: currentColor;
   margin-right: 10px;
 }
-.contacts-icon:focus {
+.contacts-icon:focus,
+.contacts-icon:hover {
   fill: var(--accent-color);
 }
 
