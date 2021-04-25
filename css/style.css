@@ -280,6 +280,36 @@ body {
   justify-content: center;
   margin-bottom: 30px;
 }
+.social-networks-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.networks:nth-child(4) {
+  margin-right: 0;
+}
+
+.networks {
+  margin-right: 10px;
+}
+.social-networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--svg);
+}
+.networks-icon {
+  fill: currentColor;
+  margin: 12px;
+}
+.social-networks:hover,
+.social-networks:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
 .icon {
   width: 270px;
   height: 120px;
