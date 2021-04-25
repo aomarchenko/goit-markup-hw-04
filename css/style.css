@@ -102,6 +102,12 @@ body {
 .contacts-icon:hover {
   fill: var(--accent-color);
 }
+.examples-list-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--btn-bg-clr);
+  align-items: center;
+}
 
 .hero-section {
   text-align: center;
