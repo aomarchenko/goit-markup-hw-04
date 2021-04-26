@@ -304,7 +304,7 @@ body {
 .team-list {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
@@ -371,11 +371,35 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
+  margin-bottom: 50px;
 }
 .networks-icon:hover,
 .networks-icon:focus {
   fill: var(--simple-white);
   background-color: var(--accent-color);
+}
+.client-card {
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid var(--svg);
+
+  border-radius: 4px;
+}
+.regular-clients-item {
+  flex-basis: calc((100% - 6 * 30px) / 6);
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.regular-clients {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  justify-content: space-between;
 }
 .social-networks:hover,
 .social-networks:focus {
