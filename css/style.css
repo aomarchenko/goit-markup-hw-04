@@ -364,6 +364,11 @@ body {
   fill: currentColor;
   margin: 12px;
 }
+.networks-icon:hover,
+.networks-icon:focus {
+  color: var(--simple-white);
+  background-color: var(--accent-color);
+}
 .social-networks:hover,
 .social-networks:focus {
   color: var(--simple-white);
