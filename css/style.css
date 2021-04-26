@@ -378,28 +378,49 @@ body {
   fill: var(--simple-white);
   background-color: var(--accent-color);
 }
+
+.customers {
+  display: flex;
+  justify-content: space-between;
+}
+.customers-item:not(:last-child) {
+  flex-basis: calc((100%-180px) / 6);
+  margin-right: 30px;
+}
+
 .client-card {
   width: 170px;
   height: 92px;
-
+  justify-content: center;
+  align-items: center;
   border: 1px solid var(--svg);
 
   border-radius: 4px;
 }
-.regular-clients-item {
-  flex-basis: calc((100% - 6 * 30px) / 6);
-  margin-left: 30px;
-  margin-top: 30px;
+.reg-client-icon {
+  fill: currentColor;
+  margin: 16px 32px;
+}
+.regular-clients-item:not(:last-child) {
+  flex-basis: calc((100%-180px) / 6);
+  margin-right: 30px;
+}
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--svg);
+  border-radius: 4px;
+  color: var(--svg);
 }
 .regular-clients {
   display: flex;
-  padding: 0;
-  margin: 0;
-
-  list-style-type: none;
-
   justify-content: space-between;
+  list-style-type: none;
 }
+
 .social-networks:hover,
 .social-networks:focus {
   fill: var(--simple-white);
