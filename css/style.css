@@ -366,7 +366,7 @@ body {
 }
 .networks-icon:hover,
 .networks-icon:focus {
-  color: var(--simple-white);
+  fill: var(--simple-white);
   background-color: var(--accent-color);
 }
 .social-networks:hover,
