@@ -388,7 +388,7 @@ body {
   fill: var(--accent-color);
 }
 .customers-link:hover {
-  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .social-networks:hover .networks-icon {
   fill: var(--simple-white);
@@ -427,6 +427,10 @@ body {
   height: 92px;
   border: 1px solid var(--svg);
   border-radius: 4px;
+  color: var(--svg);
+}
+.customers-link:hover {
+  border-color: var(--accent-color);
 }
 .regular-clients {
   display: flex;
