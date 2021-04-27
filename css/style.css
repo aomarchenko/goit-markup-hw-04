@@ -373,7 +373,9 @@ body {
   color: var(--header-text-color);
   margin-bottom: 50px;
 }
-
+.social-networks:hover .networks-icon {
+  fill: var(--simple-white);
+}
 .customers {
   display: flex;
   justify-content: space-between;
@@ -416,7 +418,8 @@ body {
   list-style-type: none;
 }
 
-.social-networks:hover .networks-icon {
+.social-networks:hover,
+.social-networks:focus {
   fill: var(--simple-white);
   background-color: var(--accent-color);
 }
