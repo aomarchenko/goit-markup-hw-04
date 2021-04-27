@@ -421,8 +421,7 @@ body {
   list-style-type: none;
 }
 
-.social-networks:hover,
-.social-networks:focus {
+.social-networks:hover .networks-icon {
   fill: var(--simple-white);
   background-color: var(--accent-color);
 }
