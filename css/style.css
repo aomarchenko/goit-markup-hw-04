@@ -360,9 +360,7 @@ body {
   border-radius: 50%;
   color: var(--svg);
 }
-.social-networks:hover {
-  color: green;
-}
+
 .networks-icon {
   fill: currentColor;
   margin: 12px;
@@ -375,6 +373,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-text-color);
   margin-bottom: 50px;
+}
+.customers-link:hover .reg-client-icon {
+  fill: var(--accent-color);
 }
 .social-networks:hover .networks-icon {
   fill: var(--simple-white);
