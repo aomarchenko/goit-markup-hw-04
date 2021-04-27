@@ -377,6 +377,9 @@ body {
 .customers-link:hover .reg-client-icon {
   fill: var(--accent-color);
 }
+.customers-link:hover {
+  fill: var(--accent-color);
+}
 .social-networks:hover .networks-icon {
   fill: var(--simple-white);
 }
