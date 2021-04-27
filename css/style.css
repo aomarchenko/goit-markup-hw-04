@@ -48,7 +48,7 @@ body {
 .contact-list {
   display: flex;
 }
-.header-container {
+.header {
   border-bottom: 1px solid #ececec;
 }
 .card-container {
