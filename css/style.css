@@ -387,7 +387,7 @@ body {
   fill: var(--accent-color);
 }
 .customers-link:hover {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 .social-networks:hover .networks-icon {
   fill: var(--simple-white);
