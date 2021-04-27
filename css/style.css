@@ -376,7 +376,7 @@ body {
 .networks-icon:hover,
 .networks-icon:focus {
   fill: var(--simple-white);
-  background-color: var(--accent-color);
+  background-color: var(--simple-white);
 }
 
 .customers {
