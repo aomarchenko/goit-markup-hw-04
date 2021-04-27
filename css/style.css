@@ -383,11 +383,12 @@ body {
   color: var(--header-text-color);
   margin-bottom: 50px;
 }
+
 .customers-link:hover .reg-client-icon {
   fill: var(--accent-color);
 }
 .customers-link:hover {
-  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .social-networks:hover .networks-icon {
   fill: var(--simple-white);
@@ -426,7 +427,6 @@ body {
   height: 92px;
   border: 1px solid var(--svg);
   border-radius: 4px;
-  color: var(--svg);
 }
 .regular-clients {
   display: flex;
