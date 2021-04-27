@@ -373,11 +373,6 @@ body {
   color: var(--header-text-color);
   margin-bottom: 50px;
 }
-.networks-icon:hover,
-.networks-icon:focus {
-  color: var(--simple-white);
-  background-color: var(--accent-color);
-}
 
 .customers {
   display: flex;
